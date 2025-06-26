@@ -1,0 +1,20 @@
+filters:
+  lowpass:
+    cutoff: 1000
+    order: 5
+    type: "butter"
+  highpass:
+    cutoff: 500
+    order: 4
+    type: "cheby1"
+  bandpass:
+    low_cutoff: 300
+    high_cutoff: 3000
+    order: 4
+    type: "butter"
+  notch:
+    freq: 50
+    quality: 30
+signal:
+  sample_rate: 44100
+  duration: 1.0
